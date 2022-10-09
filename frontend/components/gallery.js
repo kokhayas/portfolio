@@ -12,10 +12,10 @@ export default function Gallery() {
 						<p className="text-indigo-500 text-md font-medium">
 						</p>
 						<p className="text-gray-800 dark:text-white text-xl font-medium mb-2">
-							<a href="https://search-similar-motion.onrender.com/">Search Engine for English Debate Topic</a>
+							<a href="https://search-similar-motion.onrender.com/">Search Website for English Debate Topic</a>
 						</p>
 						<p className="text-gray-400 dark:text-gray-300 font-light text-md">
-							Created a Search Engine for English Debate Topic. I used tensorflowjs. Input sentence is encoded into vectors and the cos-similarity is calculated at frontend.<br/><br/>
+							Created a Search Website for English Debate Topic. I used tensorflowjs. Input sentence is encoded into vectors and the cos-similarity is calculated at frontend.<br/><br/>
 							Technologies used: React, @tensorflow-models/universal-sentence-encoder, Render<br/><br/>
 							<a className="hover:text-white" href="https://search-similar-motion.onrender.com/">Website: https://search-similar-motion.onrender.com/</a><br/>
 							<a className="hover:text-white" href="https://github.com/kokhayas/utds_search_similar_motion">Github: https://github.com/kokhayas/utds_search_similar_motion</a>
