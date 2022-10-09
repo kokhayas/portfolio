@@ -174,15 +174,15 @@ export default function Home() {
 			{gallery && <Gallery />}
 			{contact && <Contact />}
 
-			<footer className="bg-white dark:bg-gray-800 w-full py-8">
+			<footer className="bg-white dark:bg-gray-800 w-full py-8 px-8">
 				<div className="max-w-screen-xl mx-auto px-auto">
 					{/* <ul className="max-w-screen-md mx-auto text-lg font-light flex flex-wrap justify-between"> */}
-					<div className="my-2 pl-20 place-content-center">
+					<div className="flex flex-nowrap">
 						<button onClick={(e) => { navigator.clipboard.writeText("1234.884.koki@gmail.com"); setCopySuccess('Copied!'); }} className="text-gray-400 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white transition-colors duration-200">
 							Contact mail address 1234.884.koki(at)gmail.com
 						</button>
-						<button onClick={(e) => { navigator.clipboard.writeText("1234.884.koki@gmail.com"); setCopySuccess('Copied!'); }} className="px-1 ml-2 border-solid rounded-md border-2 border-white-500 text-gray-400 hover:bg-gray hover:text-gray-800 dark:text-gray-300 dark:hover:text-white transition-colors duration-200" value="1234.884.koki@gmail.com">
-							{" " + copySuccess}
+						<button onClick={(e) => { navigator.clipboard.writeText("1234.884.koki@gmail.com"); setCopySuccess('Copied!'); }} className="my-2 mx-2 border-solid rounded-md border-2 border-white-500 text-gray-400 hover:bg-gray hover:text-gray-800 dark:text-gray-300 dark:hover:text-white transition-colors duration-200" value="1234.884.koki@gmail.com">
+							{copySuccess}
 						</button>
 					</div>
 					{/* <li className="my-2 mx-2">
