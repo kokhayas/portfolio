@@ -159,7 +159,7 @@ export default function Home() {
 								Gallery
 							</button>
 							<button onClick={() => { setHomePage(false); setPost(false); setGallery(true); setContact(false); }} className="text-gray-300 hover:text-gray-800 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium">
-								Post
+								Career
 							</button>
 							<button onClick={() => { setHomePage(false); setPost(false); setGallery(false); setContact(true); }} className="text-gray-300 hover:text-gray-800 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium">
 								Contact
