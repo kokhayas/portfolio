@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function HomePage() {
 	return (
 		<div className="bg-white dark:bg-gray-900">
-			<div className="p-2 text-lg font-bold text-center h20">Welcome to kokhayas's Portfolio Home Page!</div>
+			<div className="p-2 text-lg font-bold text-center h20">Welcome to kokhayas's Portfolio!</div>
 			<div className="mt-20 p-4 relative">
 				<div className="text-center mb-4 absolute -top-16 right-1/2 transform translate-x-1/2">
 					<a href="#" className="block relative">

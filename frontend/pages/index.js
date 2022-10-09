@@ -6,14 +6,14 @@ import { useRouter } from 'next/router';
 import Contact from '../components/contact';
 import Gallery from '../components/gallery';
 import HomePage from '../components/homePage';
-import Profile from '../components/profile';
+import Post from '../components/post';
 
 export default function Home() {
 	const router = useRouter();
 	const columns = ["Home", "Works", "About", "Contact"];
 	const [copySuccess, setCopySuccess] = useState("Copy");
 	const [homePage, setHomePage] = useState(true);
-	const [profile, setProfile] = useState(false);
+	const [post, setPost] = useState(false);
 	const [gallery, setGallery] = useState(false);
 	const [contact, setContact] = useState(false);
 
@@ -27,20 +27,20 @@ export default function Home() {
 							<div className=" flex items-center">
 								<Link className="flex-shrink-0" href="/">
 									{/* <Image className="h-8 w-8 rounded-full" src={'https://avatars.githubusercontent.com/u/58214906?s=400&u=a03d4635641ecc437d3eb810f15523a7c5850d49&v=4'} alt="Image" /> */}
-									<Image width="30" height="30" alt="profile" src="/earth.jpg" className="mx-auto object-cover rounded-full h-40 w-40  border-2 border-white dark:border-gray-800" />
+									<Image width="30" height="30" alt="earth" src="/earth.jpg" className="mx-auto object-cover rounded-full h-40 w-40  border-2 border-white dark:border-gray-800" />
 								</Link>
 								<div className="hidden md:block">
 									<div className="ml-10 flex items-baseline space-x-4">
-										<button onClick={() => { setHomePage(true); setProfile(false); setGallery(false); setContact(false); }} className="text-gray-300  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium" href="/">
+										<button onClick={() => { setHomePage(true); setPost(false); setGallery(false); setContact(false); }} className="text-gray-300  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium">
 											Home
 										</button>
-										<button onClick={() => { setHomePage(false); setProfile(true); setGallery(false); setContact(false); }} className="text-gray-300  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium" href="/">
-											Profile
-										</button>
-										<button onClick={() => { setHomePage(false); setProfile(false); setGallery(true); setContact(false); }} className="text-gray-300  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium" href="/">
+										<button onClick={() => { setHomePage(false); setPost(false); setGallery(true); setContact(false); }} className="text-gray-300  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium">
 											Gallery
 										</button>
-										<button onClick={() => { setHomePage(false); setProfile(false); setGallery(false); setContact(true); }} className="text-gray-300  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium" href="/">
+										<button onClick={() => { setHomePage(false); setPost(true); setGallery(false); setContact(false); }} className="text-gray-300  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+											Career
+										</button>
+										<button onClick={() => { setHomePage(false); setPost(false); setGallery(false); setContact(true); }} className="text-gray-300  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium">
 											Contact
 										</button>
 									</div>
@@ -152,16 +152,16 @@ export default function Home() {
 					</div>
 					<div className="md:hidden">
 						<div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-							<button onClick={() => { setHomePage(true); setProfile(false); setGallery(false); setContact(false); }} className="text-gray-300 hover:text-gray-800 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium" href="/">
+							<button onClick={() => { setHomePage(true); setPost(false); setGallery(false); setContact(false); }} className="text-gray-300 hover:text-gray-800 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium">
 								Home
 							</button>
-							<button onClick={() => { setHomePage(false); setProfile(true); setGallery(false); setContact(false); }} className="text-gray-300 hover:text-gray-800 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium" href="/">
+							<button onClick={() => { setHomePage(false); setPost(true); setGallery(false); setContact(false); }} className="text-gray-300 hover:text-gray-800 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium">
 								Gallery
 							</button>
-							<button onClick={() => { setHomePage(false); setProfile(false); setGallery(true); setContact(false); }} className="text-gray-300 hover:text-gray-800 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium" href="/">
-								Content
+							<button onClick={() => { setHomePage(false); setPost(false); setGallery(true); setContact(false); }} className="text-gray-300 hover:text-gray-800 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+								Post
 							</button>
-							<button onClick={() => { setHomePage(false); setProfile(false); setGallery(false); setContact(true); }} className="text-gray-300 hover:text-gray-800 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium" href="/">
+							<button onClick={() => { setHomePage(false); setPost(false); setGallery(false); setContact(true); }} className="text-gray-300 hover:text-gray-800 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium">
 								Contact
 							</button>
 						</div>
@@ -170,7 +170,7 @@ export default function Home() {
 			</div>
 
 			{homePage && <HomePage />}
-			{profile && <Profile />}
+			{post && <Post />}
 			{gallery && <Gallery />}
 			{contact && <Contact />}
 
