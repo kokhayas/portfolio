@@ -7,7 +7,7 @@ export default function HomePage() {
 			<div className="mt-20 p-4 relative">
 				<div className="text-center mb-4 absolute -top-16 right-1/2 transform translate-x-1/2">
 					<a href="#" className="block relative">
-						<Image width="150" height="150" alt="profile" src="/author.png" className="mx-auto object-cover rounded-lg h-40 w-40  border-2 border-white dark:border-gray-800" />
+						<Image width="150" height="150" alt="profile" src="/selfie.jpeg" className="mx-auto object-cover rounded-lg h-40 w-40  border-2 border-white dark:border-gray-800" />
 					</a>
 				</div>
 				<div className="bg-white dark:bg-gray-800 rounded-lg shadow px-8 py-4 pt-24">
