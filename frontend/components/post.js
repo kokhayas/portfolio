@@ -14,8 +14,7 @@ export default function Profile() {
 							September 2022 ~
 						</p>
 						<p class="text-gray-400 dark:text-gray-300 font-light text-md">
-							Currently working at Tier4 from September 2022 as Software Engineer<br/>
-							Working as Student Engineer
+							Currently working from September 2022 as Software Engineer Intern<br/>
 						</p>
 					</div>
 			    </a>
