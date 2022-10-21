@@ -70,7 +70,7 @@ export default function Gallery() {
 						<p className="text-indigo-500 text-md font-medium">
 						</p>
 						<p className="text-gray-800 dark:text-white text-xl font-medium mb-2">
-							<a href="https://github.com/kokhayas/ut_H8_Team2">News App for Student</a>
+							<a href="https://github.com/kokhayas/ut_H8_Team2">Line trace Car Project</a>
 						</p>
 						<p className="text-gray-400 dark:text-gray-300 font-light text-md">
 							ARLISS_Newcomer_training_2020_team2 Six members of the Aerospace Engineering Department worked on a microcontroller project from November 2019 to February 2020. We used H8 microcontrollers. We used copper plate circuits. We procure components at Sengoku Densho and Akizuki Denki in Akihabara. The cans are sorted according to their color.<br/><br/>
