@@ -18,8 +18,12 @@ export default function HomePage() {
 						<p className="text-xl text-gray-500 dark:text-gray-200 font-light">
 							Software Engineer
 						</p>
-						<p className="text-md text-gray-500 w-60 dark:text-gray-400 mx-auto py-4 font-light">
-							Python, Typescript, C/C++, Verilog, React, Nextjs, Nodejs, Postgresql, Pytorch, Huggingface
+						<p className="text-md text-gray-500 w-600 dark:text-gray-400 mx-auto py-4 font-light">
+							Language <br/>Python, Typescript, C/C++, Verilog <br/>
+							Framework <br/> Frontend: React, Nextjs, Tailwindcss <br/>
+							Backend: Nodejs/Express, Django, Flask <br/>
+							 Database: Postgresql <br/>
+							Datascience: Pytorch, Huggingface
 						</p>
 					</div>
 					<div className="pt-8 flex border-t border-gray-200 w-40 mx-auto text-gray-500 items-center justify-between">
