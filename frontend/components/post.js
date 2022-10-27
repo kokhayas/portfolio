@@ -34,7 +34,7 @@ export default function Profile() {
 						<p class="text-gray-400 dark:text-gray-300 font-light text-md">
 							Entered University of Tokyo in April 2022 as Master of Information Science and Technology
 							<br />
-							Researching on Information Science and Technology,  Algorithm and Graph Optimization
+							Researching on Information Science and Technology
 						</p>
 					</div>
 			    </a>
