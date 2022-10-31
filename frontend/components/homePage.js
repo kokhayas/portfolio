@@ -16,15 +16,21 @@ export default function HomePage() {
 							kokhayas
 						</p>
 						<p className="text-xl text-gray-500 dark:text-gray-200 font-light">
-							Software Engineer
+							Web Application Engineer, Backend Engineer
 						</p>
 						<p className="text-md text-gray-500 w-600 dark:text-gray-400 mx-auto py-4 font-light">
 							Language <br/>Python, Typescript, C/C++, Verilog <br/>
-							Framework <br/> Frontend: React, Nextjs, Tailwindcss <br/>
+							Framework <br/>
+							Frontend: React, Nextjs, Tailwindcss <br/>
 							Backend: Nodejs/Express, Django, Flask <br/>
-							 Database: Postgresql <br/>
-							Datascience: Pytorch, Huggingface
+							Server: AWS, GCP <br/>
+							Database: Postgresql <br/>
+							Datascience: Pytorch, Huggingface <br/>
+							English-certification: toefl-ibt98, toeic935 <br/>
 						</p>
+						{/* <p  className="text-md text-gray-500 w-600 dark:text-gray-400 mx-auto py-4 font-light">
+
+						</p> */}
 					</div>
 					<div className="pt-8 flex border-t border-gray-200 w-40 mx-auto text-gray-500 items-center justify-between">
 						<a href="https://www.facebook.com/profile.php?id=100006294643579">
