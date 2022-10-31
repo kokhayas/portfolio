@@ -16,7 +16,7 @@ export default function HomePage() {
 							kokhayas
 						</p>
 						<p className="text-xl text-gray-500 dark:text-gray-200 font-light">
-							Web Application Engineer, Backend Engineer
+							Software Engineer, Backend Engineer, Web Developer
 						</p>
 						<p className="text-md text-gray-500 w-600 dark:text-gray-400 mx-auto py-4 font-light">
 							Language <br/>Python, Typescript, C/C++, Verilog <br/>
