@@ -22,7 +22,7 @@ export default function HomePage() {
 							Language <br/>Python, Typescript, C/C++, Verilog <br/>
 							Framework <br/>
 							Frontend: React, Nextjs, Tailwindcss <br/>
-							Backend: Nodejs/Express, Django, Flask <br/>
+							Backend: Nodejs/Express, Nestjs, Django, Flask <br/>
 							Server: AWS, GCP <br/>
 							Database: Postgresql <br/>
 							Datascience: Pytorch, Huggingface <br/>
