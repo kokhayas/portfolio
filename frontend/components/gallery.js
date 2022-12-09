@@ -6,7 +6,6 @@ export default function Gallery() {
 			<div className="p-2 text-lg font-bold text-center h20">Gallery</div>
 
 		
-// 		https://github.com/kokhayas/exchange-book-with-friends
 		
 			<div className="mb-4 overflow-hidden shadow-lg rounded-lg mx-5 cursor-pointer m-auto">
 				<a href="#" className="mt-2 w-full block h-full">
@@ -20,7 +19,6 @@ export default function Gallery() {
 						<p className="text-gray-400 dark:text-gray-300 font-light text-md">
 							This app makes it possible to see what books your friends can lend to you. By using this app, you can temporarily exchange used books with your friends.<br/><br/>
 							Technologies used: React, Django Rest Framework, Postgresql, Docker<br/><br/>
-// 							<a className="hover:text-white" href="https://search-similar-motion.onrender.com/">Website: https://search-similar-motion.onrender.com/</a><br/>
 							<a className="hover:text-white" href="https://github.com/kokhayas/exchange-book-with-friends">Github: https://github.com/kokhayas/exchange-book-with-friends</a>
 						</p>
 					</div>
